@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="white">
+  <!-- Brain shape -->
+  <g transform="translate(60,55)">
+    <!-- Left hemisphere -->
+    <path d="M-2,20 C-2,20 -8,18 -12,14 C-16,10 -20,6 -22,0 C-24,-6 -24,-12 -22,-16 C-20,-20 -16,-24 -12,-26 C-8,-28 -4,-28 -2,-26 C-2,-26 -6,-22 -8,-18 C-10,-14 -10,-8 -8,-4 C-6,0 -2,4 -2,4" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-2,-10 C-2,-10 -8,-8 -12,-4" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-2,4 C-2,4 -10,2 -14,6 C-18,10 -16,16 -12,14" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Right hemisphere -->
+    <path d="M2,20 C2,20 8,18 12,14 C16,10 20,6 22,0 C24,-6 24,-12 22,-16 C20,-20 16,-24 12,-26 C8,-28 4,-28 2,-26 C2,-26 6,-22 8,-18 C10,-14 10,-8 8,-4 C6,0 2,4 2,4" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M2,-10 C2,-10 8,-8 12,-4" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <path d="M2,4 C2,4 10,2 14,6 C18,10 16,16 12,14" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Center line -->
+    <line x1="0" y1="-26" x2="0" y2="20" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Brain stem -->
+    <path d="M-3,20 C-3,22 -2,24 0,24 C2,24 3,22 3,20" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Neural network dots -->
+  <circle cx="28" cy="22" r="3" fill="white" opacity="0.9"/>
+  <circle cx="92" cy="22" r="3" fill="white" opacity="0.9"/>
+  <circle cx="18" cy="50" r="2.5" fill="white" opacity="0.8"/>
+  <circle cx="102" cy="50" r="2.5" fill="white" opacity="0.8"/>
+  <circle cx="22" cy="78" r="2" fill="white" opacity="0.7"/>
+  <circle cx="98" cy="78" r="2" fill="white" opacity="0.7"/>
+  <circle cx="40" cy="14" r="2" fill="white" opacity="0.7"/>
+  <circle cx="80" cy="14" r="2" fill="white" opacity="0.7"/>
+  <circle cx="35" cy="92" r="2.5" fill="white" opacity="0.6"/>
+  <circle cx="85" cy="92" r="2.5" fill="white" opacity="0.6"/>
+  <circle cx="60" cy="10" r="2" fill="white" opacity="0.6"/>
+  <circle cx="14" cy="65" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="106" cy="65" r="1.5" fill="white" opacity="0.5"/>
+  
+  <!-- Connection lines (subtle) -->
+  <line x1="28" y1="22" x2="42" y2="32" stroke="white" stroke-width="0.8" opacity="0.3"/>
+  <line x1="92" y1="22" x2="78" y2="32" stroke="white" stroke-width="0.8" opacity="0.3"/>
+  <line x1="18" y1="50" x2="38" y2="50" stroke="white" stroke-width="0.8" opacity="0.3"/>
+  <line x1="102" y1="50" x2="82" y2="50" stroke="white" stroke-width="0.8" opacity="0.3"/>
+  <line x1="22" y1="78" x2="48" y2="72" stroke="white" stroke-width="0.8" opacity="0.3"/>
+  <line x1="98" y1="78" x2="72" y2="72" stroke="white" stroke-width="0.8" opacity="0.3"/>
+  <line x1="40" y1="14" x2="50" y2="28" stroke="white" stroke-width="0.8" opacity="0.3"/>
+  <line x1="80" y1="14" x2="70" y2="28" stroke="white" stroke-width="0.8" opacity="0.3"/>
+  <line x1="60" y1="10" x2="60" y2="28" stroke="white" stroke-width="0.8" opacity="0.3"/>
+</svg>
