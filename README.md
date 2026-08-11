@@ -1,37 +1,16 @@
-# Floritech Inc. — Showcase Website
+# React + Vite
 
-> **Shaping a smarter, greener and more human future.**
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-Official website for [floritech-inc.com](https://floritech-inc.com) — a technology innovation company launching on **07/07/2030**.
+Currently, two official plugins are available:
 
-## Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- 🎬 Full-screen video background with dark overlay
-- ⏱️ Live countdown timer to launch date
-- 🧠 Custom brain neural-network logo (SVG)
-- 🎨 Black & white minimalist design
-- 📱 Fully responsive (mobile, tablet, desktop)
-- ✨ Smooth entrance animations & micro-interactions
-- 🔍 SEO optimized with meta tags
+## React Compiler
 
-## Tech Stack
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- **HTML5** — Semantic structure
-- **CSS3** — Custom properties, animations, responsive design
-- **Vanilla JS** — Countdown timer, scroll effects, parallax
+## Expanding the Oxlint configuration
 
-## Getting Started
-
-Simply open `index.html` in a browser, or serve with any static server:
-
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js
-npx serve .
-```
-
-## License
-
-© 2025 Floritech Inc. All rights reserved.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.

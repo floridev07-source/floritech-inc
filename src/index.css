@@ -1,5 +1,5 @@
 /* =============================================
-   FLORITECH INC. — SHOWCASE WEBSITE
+   FLORITECH INC. — SHOWCASE WEBSITE (REACT)
    Colors: Black & White Only
    ============================================= */
 
@@ -107,8 +107,8 @@ button {
   align-items: center;
   justify-content: space-between;
   padding: 24px 40px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
   animation: fadeInDown 1s ease-out;
+  transition: background 0.3s ease, backdrop-filter 0.3s ease, -webkit-backdrop-filter 0.3s ease;
 }
 
 .logo {
@@ -297,6 +297,8 @@ button {
   transition: transform 0.3s ease;
   tabular-nums: true;
   font-variant-numeric: tabular-nums;
+  /* React specific transition handler */
+  animation: bump 0.3s ease-out;
 }
 
 .countdown-label {
@@ -432,13 +434,16 @@ button {
   }
 }
 
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
+@keyframes bump {
+  0% { transform: translateY(-4px); opacity: 0.6; }
+  50% { transform: translateY(4px); opacity: 0.8; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 /* ===== RESPONSIVE ===== */
@@ -545,22 +550,4 @@ button {
 .hero-logo:hover svg {
   filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.25));
   transition: filter 0.4s ease;
-}
-
-/* ===== LOADING STATE ===== */
-body.loading .hero-content {
-  opacity: 0;
-}
-
-body:not(.loading) .hero-content {
-  opacity: 1;
-}
-
-/* ===== UTILITY: GLASS CARD (for future use) ===== */
-.glass-card {
-  background: var(--white-08);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid var(--white-08);
-  border-radius: 16px;
 }
